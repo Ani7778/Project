@@ -1,0 +1,16 @@
+// Mixins
+@mixin clearfix {
+	&:after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+}
+
+@mixin container {
+	position: relative;
+}
+
+@mixin content {
+	position: absolute;
+}

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="hy">
+	<head>
+		<title>Ազատություն ռ/կ</title>
+		<meta charset="UTF-8">
+	   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://kit.fontawesome.com/535811ad0c.js"></script>
+		<link rel="stylesheet" type="text/css" href="../project/main.min.css">
+
+	</head>
+	<body> 
+		<header>
+			<!-- navbar links begin -->
+			<div class="hdr_nav_frag">
+				<nav class="hdr_nav_frag_hover">
+					<a class="fb" href="https://facebook.com/azatutyun" title="Միացեք մեզ Facebook-ում" target="_blank">
+						<i class="fab fa-facebook socials"></i>
+					</a>
+			        <a class="tw" href="https://twitter.com/azatutyunradio" title="Միացեք մեզ Twitter-ում" target="_blank">
+				       <i class="fab fa-twitter socials"></i>
+					</a>	
+					<a class="yt" href="https://youtube.com/azatutyunradio" title="Միացեք մեզ Youtube-ում" target="_blank">
+						<i class="fab fa-youtube socials"></i>
+					</a>
+					<a class="tl" href="http://t.me/azatutyuntv" title="Հետևեք մեզ Տելեգրամում" target="_blank">
+						<i class="fab fa-telegram-plane socials"></i>
+					</a>
+					<a class="ins" href="https://instagram.com/azatutyuntv/" title="Հետևեք մեզ Instagram-um" target="_blank">
+						<i class="fab fa-instagram socials"></i>
+					</a>
+					<a class="odn" href="https://ok.ru/azatutyun" title="follow us on Odnoklassniki" target="_blank">
+						<i class="fab fa-odnoklassniki socials"></i>
+					</a> |
+			    	<a href="">Հայ</a> |
+			    	<a href="">Eng</a> |
+			    	<a href="">РУС</a> |
+		       		<a href="signIn.html"><i class="fas fa-user socials"></i>Մուտք | Գրանցվել</a> |
+			    	<a href=""><span class="ico ico-languages"></span>"Ազատության" բոլոր կայքերը</a> 
+			    </nav>
+		    </div>
+		    <!-- navbar links end -->
+
+		    <!-- logo and search begin -->
+		    <div class="margin clearfix">
+		    	<div class="left">
+				    <img class="logo logo_size" src="https://www.azatutyun.am/Content/responsive/RFE/hy-AM/img/logo-compact.png" alt="logo">
+				</div>
+				<div class="right">
+		            <form action="www.azatutyun.am" class="search">
+		            	<label for="search"></label>
+		            	<input type="text" name="search" id="search" placeholder="որոնման տեքստ..." >
+		            	<i class="fas fa-search socials"></i>
+		            </form>
+		        </div>
+		    </div>
+		    <!-- logo and search end -->
+
+		    <!-- navbar links begin -->
+            <div class="navbar_items margin flex_container">
+            	<nav class="navbar_items_hover hidden_block" id="myNavbar">
+            		<a href="">ԱԶԱՏՈՒԹՅՈՒՆ TV</a>
+            		<a href="">ՔԱՂԱՔԱԿԱՆ</a>
+            		<a href="">ԿՈՐՈՆԱՎԻՐՈՒՍ</a>
+            		<a href="">ԻՐԱՎՈՒՆՔ</a>
+            		<a href="">ՏՆՏԵՍՈՒԹՅՈՒՆ</a>
+            		<a href="" class="hide">ՂԱՐԱԲԱՂ</a>
+            		<a href="" class="hide">ՄԻՋԱԶԳԱՅԻՆ</a>
+            		<a href="" class="hide">ՄՇԱԿՈՒՅԹ</a>
+            		<a href="" class="hide">ԱՐԽԻՎ</a>
+            	</nav>
+            	    <!-- Dropdown in header begin -->
+	            	<div class="dropdown">
+	            		<span class="dropbtn">ՌԱԴԻՈ</span>
+	            		<div class="dropdown_content clearfix">
+						<div class="dropdown_float compact_image_renderer">
+							<ul class="none bck_color">
+								<li class="bck_color font_size">Նախորդ հեռարձակումը<hr /></li>
+							</ul>
+							<img class="float" src="https://gdb.rferl.org/BDFD27EC-6941-4B0E-9B7F-16B1FCD20C86_w144_r1.jpg">
+							<p class="float">«Ազատություն» ռադիոկայանի երեկոյան ծրագիր</p>
+						</div>
+						<div class="dropdown_float">
+							<ul class="none bck_color">
+								<li class="bck_color font_size">Հաջորդը եթերում<hr /></li>
+								<li class="bck_color">09:00 - 09:15
+	                                «Ազատություն» ռադիոկայանի առավոտյան ծրագիր</li>
+								<li class="bck_color">15:00 - 15:20
+	                                «Ազատություն» ռադիոկայանի ցերեկային ծրագիր</li>
+	                            <li class="bck_color">16:00 - 16:30
+	                                «Ազատություն» ռադիոկայանի ցերեկային ծրագիր</li>
+							</ul>
+						</div>
+						<div class="dropdown_float">
+							<ul class="none bck_color">
+								<li class="bck_color font_size">Ռադիոհաղորդումները<hr /></li>
+								<li class="bck_color"><a>ՌԱԴԻՈՀԱՂՈՐԴՈՒՄՆԵՐԻ ԺԱՄԱՆԱԿԱՑՈՒՅՑ</a></li>
+								<li class="bck_color"><a>ԱՌԱՎՈՏՅԱՆ ԾՐԱԳԻՐ</a></li>
+								<li class="bck_color"><a>ՑԵՐԵԿԱՅԻՆ ԾՐԱԳԻՐ</a></li>
+								<li class="bck_color"><a>ԵՐԵԿՈՅԱՆ ԾՐԱԳԻՐ></a></li>
+								<li class="bck_color"><a>ԻնՉՊԵՍ ԼՍԵԼ</a></li>
+							</ul>
+						</div>
+					</div>
+            	    <!-- Dropdown in header end -->
+            	<!-- Button with JS begin -->    
+				<a href="javascript:void(0);" class="icon" onclick="showHideNavbaroptions()">
+				    <i class="fa fa-bars"></i>
+				</a>
+            	</div>
+            	<script>
+					function showHideNavbaroptions() {
+					    var navbar_options = document.getElementById("myNavbar");
+					    var hidden = navbar_options.classList.contains("hidden_block");
+
+					    if (hidden) {
+					    	console.log('Show Navbar');
+					    	navbar_options.className = "navbar_items_hover responsive";
+					    } else {
+					        console.log("Hide Navbar");
+					    	navbar_options.className = "navbar_items_hover hidden_block";
+					    }
+					}
+				</script>
+				<!-- Button with JS end -->    
+            </div>
+            <!-- navbar links end -->
+        </header>
+
+        <!-- 2 columns with video u text begin -->
+        <div class="margin flex_container">
+        	<div class="last_video">
+        		<h2 class="hdr_nav_frag_hover long_hr"><a href="https://www.azatutyun.am/p/3148.html">Ազատություն TV</a><hr /></h2>
+        		<div class="wraper">
+        			<iframe width="800" height="450" src="https://www.youtube.com/embed/8s1SdBCTiys" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        		</div>
+	        </div>
+        	<div class="last_news news">
+        		<h2 class="hdr_nav_frag_hover long_hr"><a href="">Լուրեր</a><hr /></h2>
+	            	<span class="last_news_hover"><a href="">Նոր Զելանդիայում կորոնավիրուսի պատճառով մեկ ամսով հետաձգվել են խորհրդարանական ընտրությունները</a><hr /></span>
+	            	<span class="last_news_hover"><a href="">Լիբանանում երկշաբաթյա կարանտին՝ պայմանավորված Covid-19-ի վարակակիրների թվի աճով</a><hr /></span>
+	            	<span class="last_news_hover"><a href="">Սվետլանա Տիխանովսկայան պատրաստ է դառնալ ազգային առաջնորդ</a><hr /></span>
+	            	<span class="last_news_hover"><a href="">Բացահայտել են առանձնապես խոշոր չափերի գումար հափշտակելու և փաստաթղթեր կեղծելու դեպքեր. ԱԱԾ</a><hr /></span>
+	            	<span class="last_news_hover"><a href="">Վահրամ Ավետիսյանը հրաժարվում է ՍԴ դատավորի թեկնածությունից</a><hr /></span>
+	            	<span class="last_news_hover"><a href="">Հայաստանում կորոնավիրուսի դեպքերի թիվն աճել է 38-ով, բուժվածներինը` 71-ով, գրանցվել է մահվան ևս 6 դեպք</a><hr /></span>
+	            	<span class="last_news_hover"><a href="">Աշխարհը շարունակում է պայքարել կորոնավիրուսի դեմ</a></span>
+	            	<span class="link_more"><a href="">Բոլոր լուրերը</a></span>
+            	
+            </div>
+        </div>
+        <!-- 2 columns with video u text end -->
+
+        <!-- 3 columns with images begin -->
+        <div>
+        	<div class="margin clearfix font_big">
+        		<h2 class="hdr_nav_frag_hover">Օրվա լուրերը<hr /></h2>
+        		<div class="clearfix">
+	        		<div class="compact_image_renderer last_news_hover col-4">
+			        	<img class="compact_image compact_image_size" src="https://gdb.rferl.org/350811E5-1144-43F9-8B2A-5DD8DFCAB7F1_w1023_r1_s.jpg"title="Հայաստանում կորոնավիրուսի դեպքերի թիվն աճել է 38-ով, բուժվածներինը` 71-ով, գրանցվել է մահվան ևս 6 դեպք">
+			        	<p><a href="">
+				        	Հայաստանում կորոնավիրուսի դեպքերի թիվն աճել է 38-ով, բուժվածներինը` 71-ով, գրանցվել է մահվան ևս 6 դեպք</a>
+				        </p>
+			        </div>
+	            	<div class="compact_image_renderer last_news_hover col-4">
+			        	<img class="compact_image compact_image_size" src="https://gdb.rferl.org/05001FF4-8331-4FD0-B463-8570642CCC52_cx11_cy0_cw79_w1023_r1_s.jpg" title="Այս հայտարարությունը բխում է հեղափոխության օրակարգից. ԱԽ քարտուղարը մեկնաբանում է Փաշինյանի շնորհավորանքը Լուկաշենկոյին">
+			        	<p><a href="">
+				        	Այս հայտարարությունը բխում է հեղափոխության օրակարգից. ԱԽ քարտուղարը մեկնաբանում է Փաշինյանի շնորհավորանքը Լուկաշենկոյին</a>
+				        </p>
+				      
+				    </div>
+			        <div class="compact_image_renderer last_news_hover col-4">
+			    		<img class="compact_image compact_image_size" src="https://gdb.rferl.org/636ED249-D121-483D-9E83-AC1796AE824B_w1023_r1_s.png" title="Վահրամ Ավետիսյանը հրաժարվում է ՍԴ դատավորի թեկնածությունից" title="Վահրամ Ավետիսյանը հրաժարվում է ՍԴ դատավորի թեկնածությունից">
+			    		<p><a href="">Վահրամ Ավետիսյանը հրաժարվում է ՍԴ դատավորի թեկնածությունից</a></p>
+			        </div>
+			    </div>
+		    </div>
+		    <div class="mg_right">
+		        <span class="link_more"><a href="">Բոլոր հոդվածները</a></span>
+		    </div>
+		</div>
+		<!-- 3 columns with images end -->
+
+        <!-- 2 columns with text and images begin -->
+	    <div class="margin clearfix">
+	    	<h2 class="hdr_nav_frag_hover">Ուշադրության կենտրոնում<hr /></h2>
+	    	<div class="news_list last_news_hover col-5">
+	    		<p>
+		    		<img class="float" src="https://gdb.rferl.org/388fcc5b-b6d7-40da-9be9-ccdc2dcb44f9_w1023_r1_s.jpg" title="Լուկաշենկոն հայտարարում է, որ երկրում նոր ընտրություններ տեղի չեն ունենա">
+		    		<h5 class="color_for_heading"><a href="">ՄԻՋԱԶԳԱՅԻՆ</a></h5>
+		    		<p><a href="">Լուկաշենկոն հայտարարում է, որ երկրում նոր ընտրություններ տեղի չեն ունենա</a></p>
+		    	</p>
+		    </div>
+		    <div class="news_list last_news_hover col-5">
+	    		<p>
+	    			<img class="float" src="https://gdb.rferl.org/46B8D73D-1522-4AF0-9167-A50E5F874876_w1023_r1_s.jpg" title="Ամուլսարի հարցը ոչ թե բնապահպանական է, այլ քաղաքական, վստահ է «Լիդիան Արմենիայի» գործադիր տնօրենը">
+		    		<h5 class="color_for_heading"><a href="">ՀԱՅԱՍՏԱՆ</a></h5>
+		    		<p><a href="">Ամուլսարի հարցը ոչ թե բնապահպանական է, այլ քաղաքական, վստահ է «Լիդիան Արմենիայի» գործադիր տնօրենը</a></p>
+	    	    </p>
+	    	</div>
+	    </div>
+	    <div class="margin clearfix">
+	    	<div class="news_list last_news_hover col-5">
+	    	    <img class="float" src="https://gdb.rferl.org/2a682561-e5a5-4732-af67-58eaced5d3db_cx0_cy0_cw94_w1023_r1_s.jpg" title="Բայդեն․ 'Էրդողանին հարկավոր է պարտության մատնել ոչ թե հեղաշրջման, այլ ընտրությունների միջոցով'">
+	    	    <h5 class="color_for_heading"><a href="">ՏԱՐԱԾԱՇՐՋԱՆ</a></h5>
+	    	    <p><a href="">Բայդեն․ <q>Էրդողանին հարկավոր է պարտության մատնել ոչ թե հեղաշրջման, այլ ընտրությունների միջոցով</q></a></p>
+	    	</div>
+	    	<div class="news_list last_news_hover col-5">
+	    	    <img class="float" src="https://gdb.rferl.org/3f93bc5d-d383-4d85-b775-847d014c9d5b_w1023_r1_s.jpg" title="Մեկնարկում է ԱՄՆ դեմոկրատների ազգային համագումարը">
+	    	    <h5 class="color_for_heading"><a href="">ՄԻՋԱԶԳԱՅԻՆ</a></h5>
+	    	    <p><a href="">Մեկնարկում է ԱՄՆ դեմոկրատների ազգային համագումարը</a></p>  
+	    	</div>  
+	    </div>
+        <!-- 2 columns with text and images end -->
+
+
+	    <div class="mg_right">
+		    <span class="link_more"><a href="">Բոլոր հոդվածները</a></span>
+	    </div>
+
+        <!-- 3columns text on images begin -->
+		<div class="margin clearfix">
+			<div class="text_on_image container_image col-4">
+				<a href=""><img class="compact_image text_on_image_size" src="https://gdb.rferl.org/48151119-1ebc-41ce-9cef-4c264f4bc1c9_cx4_cy0_cw80_w408_r1.jpg" title="Գյումրին առաջին անգամ քաղաքի օրը նշեց առանց հյուրերի"></a>
+				<a href=""><div class="image_text_heading">ՄԱՐԶԵՐ</div></a>
+				<a href=""><div class="image_text">Գյումրին առաջին անգամ քաղաքի օրը նշեց առանց հյուրերի</div></a>
+			</div>
+			<div class="text_on_image container_image col-4">
+				<a href=""><img class="compact_image text_on_image_size" src="https://gdb.rferl.org/EB7CF634-4C8C-4276-B955-4DD47515C21B_w408_r1.jpg" title="Ակտիվիստների պնդմամբ՝ «Լիդիան Արմենիայի» պահնորդները ծեծի են ենթարկել բնակիչներին"></a>
+				<a href=""><div class="image_text">Ակտիվիստների պնդմամբ՝ &#171;Լիդիան Արմենիայի&#187; պահնորդները ծեծի են ենթարկել բնակիչներին</div></a>
+				<a href=""><div class="image_text_heading">ՀԱՍԱՐԱԿՈՒԹՅՈՒՆ</div></a>
+			</div>
+			<div class="text_on_image container_image col-4">
+				<a href=""><img class="compact_image text_on_image_size" src="https://gdb.rferl.org/BBE9E964-6E73-4034-891D-8D9193295BDB_w408_r1.jpg" title="«Տարածքների փոխանակում» կամ «Մեղրիի տարբերակ». 21 տարի անց"></a>
+				<a href=""><div class="image_text">&#171;Տարածքների փոխանակում&#187; կամ &#171;Մեղրիի տարբերակ&#187;. 21 տարի անց</div></a>
+				<a href=""><div class="image_text_heading">ՆՈՐԱԳՈՒՅՆ ՊԱՏՄՈՒԹՅՈՒՆ</div></a>
+			</div>
+		</div>
+        <!-- 3columns text on images end -->
+
+        <!-- Banner-time begin -->
+	    <div class="banner_time">
+	    	<a href="" class="hover">
+	   	    <div class="time_text">
+	   	    	<h1 class="banner_text">Ղարաբաղյան ժամանակագրություն.</h1>
+	   	    	<h2 class="banner_text">Հրադադարից 25 տարի անց</h2>
+	   	    </div>
+	   	    <div class="time_years">
+	   	    	<span class="year">1991</span>
+	   	    	<span class="year">1992</span>
+	   	    	<span class="year">1993</span>
+	   	    	<span class="year">1994</span>
+	   	    	<span class="year">1995</span>
+	   	    	<span class="year">1996</span>
+	   	    	<span class="year">1997</span>
+	   	    	<span class="year">1998</span>
+	   	    	<span class="year">1999</span>
+	   	    	<span class="year">2000</span>
+	   	    	<span class="year">2001</span>
+	   	    	<span class="year">2002</span>
+	   	    	<span class="year">2003</span>
+	   	    	<span class="year">2004</span>
+	   	    	<span class="year">2005</span>
+	   	        <span class="year">2006</span>
+	   	    	<span class="year">2007</span>
+	   	    	<span class="year">2008</span>
+	   	    	<span class="year">2009</span>
+	   	    	<span class="year">2010</span>
+	   	    	<span class="year">2011</span>
+	   	    	<span class="year">2012</span>
+	   	    	<span class="year">2013</span>
+	   	    	<span class="year">2014</span>
+	   	    	<span class="year">2015</span>
+	   	    	<span class="year">2016</span>
+	   	    	<span class="year">2017</span>
+	   	    	<span class="year">2018</span>
+	   	    	<span class="year">2019</span>
+	   	    </div>
+	   	    </a>
+	    </div>
+        <!-- Banner-time end -->
+
+        <!-- text on images begin -->
+	    <div class="margin clearfix">
+			<div class="text_on_image container_image">
+				<h2 class="hdr_nav_frag_hover long_hr"><a href="">Կորոնավիրուս</a><hr /></h2>
+				<a href=""><img class="margin" src="https://gdb.rferl.org/56566a54-d5f9-4e23-b892-494b5fdf3e53_w408_r6.jpg" title="Հայաստանը հայտնվել է Ուկրաինայի առողջապահության նախարարության «կանաչ» երկրների ցանկում"></a>
+				<a href=""><div class="image_text font_size">Հայաստանը հայտնվել է Ուկրաինայի առողջապահության նախարարության «կանաչ» երկրների ցանկում</div></a>
+			</div>
+			<div class="text_on_image container_image">
+				<h2 class="hdr_nav_frag_hover long_hr"><a href="">Իրավունք</a><hr /></h2>
+				<a href=""><img class="margin" src="https://gdb.rferl.org/85d9624d-5f51-4ec5-b6c2-bd9ec9f51271_w408_r6.jpg" title="Արա Թորանյանը ֆրանսիական դատարանում հաղթանակ է տարել ժխտողականության քարոզիչներից մեկի նկատմամբ"></a>
+				<a href=""><div class="image_text font_size">Արա Թորանյանը ֆրանսիական դատարանում հաղթանակ է տարել ժխտողականության քարոզիչներից մեկի նկատմամբ</div></a>
+			</div>
+		</div>
+        <!-- text on images end -->
+
+	    <!-- footer begin -->
+	    <footer>
+	    	<!-- First part begin -->
+	    	<div class="clearfix margin">
+		    	<div class="footer_item col-4">
+			        <h4>ՄՈՒԼՏԻՄԵԴԻԱ</h4>
+			        <span class="footer_subitem"><a href="">Ազատություն TV</a></span>
+			    	<span class="footer_subitem"><a href="">Տեսանյութեր</a>
+					<span class="footer_subitem"><a href="">Լրատվական</a>
+					<span class="footer_subitem"><a href="">Կիրակնօրյա</a>
+					<span class="footer_subitem"><a href="">Պատկերաշարներ</a>
+					<span class="footer_subitem"><a href="">Ռադիոծրագրեր</a>
+					<span class="footer_subitem"><a href="">Առավոտյան ծրագիր</a>
+					<span class="footer_subitem"><a href="">Ցերեկային ծրագիր</a>
+					<span class="footer_subitem"><a href="">Երեկոյան ծրագիր</a>
+			    </div>
+	    		<div class="footer_item col-4">
+		    		<h4>ԲԱԺԻՆՆԵՐ</h4>
+		    		<span class="footer_subitem"><a href="">Լուրեր</a>
+			    	<span class="footer_subitem"><a href="">Քաղաքական</a>
+					<span class="footer_subitem"><a href="">Իրավունք</a>
+					<span class="footer_subitem"><a href="">Տնտեսություն</a>
+					<span class="footer_subitem"><a href="">Հասարակություն</a>
+					<span class="footer_subitem"><a href="">Ղարաբաղյան խնդիր</a>
+					<span class="footer_subitem"><a href="">Տարածաշրջան</a>
+					<span class="footer_subitem"><a href="">Միջազգային</a>
+					<span class="footer_subitem"><a href="">ՏՏ և Ինտերնետ</a>
+					<span class="footer_subitem"><a href="">Մշակույթ</a>
+					<span class="footer_subitem"><a href="">Արխիվ</a>
+		    	</div>
+	    		<div class="footer_item col-4">
+		    		<h4>ՀԵՏԵՎԵՔ ՄԵԶ</h4>
+				    <nav>
+				        <a href="https://facebook.com/azatutyun" title="Միացեք մեզ Facebook-ում" target="_blank">
+							<i class="fab fa-facebook ft_socials"></i>
+						</a>
+				        <a href="https://twitter.com/azatutyunradio" title="Միացեք մեզ Twitter-ում" target="_blank">
+				            <i class="fab fa-twitter ft_socials"></i>
+						</a>	
+						</a>	
+						<a href="https://youtube.com/azatutyunradio" title="Միացեք մեզ Youtube-ում" target="_blank">
+							<i class="fab fa-youtube ft_socials"></i>
+						</a>
+						<a href="http://t.me/azatutyuntv" title="Հետևեք մեզ Տելեգրամում" target="_blank">
+							<i class="fab fa-telegram-plane ft_socials"></i>
+						</a>
+						<a href="https://instagram.com/azatutyuntv/" title="Հետևեք մեզ Instagram-um" target="_blank">
+							<i class="fab fa-instagram ft_socials"></i>
+						</a>
+						<a href="https://ok.ru/azatutyun" title="follow us on Odnoklassniki" target="_blank">
+							<i class="fab fa-odnoklassniki ft_socials"></i>
+						</a> 
+						<a href="" target="_blank">
+							<i class="fas fa-rss ft_socials"></i>
+						</a>
+						<a href="" target="_blank">
+							<i class="fas fa-podcast ft_socials"></i>
+						</a>
+					</nav>
+			    </div>
+			</div>
+			<!-- First part end -->
+
+			<!-- Second part begin -->
+			<div class="clearfix margin">	
+				<h4 class="margin">ՄԵՐ ՄԱՍԻՆ</h4>
+				<div class="footer_item col-4">	
+			    	<span class="footer_subitem"><a href="">"Ազատություն" ռ/կ</a>
+			    	<span class="footer_subitem"><a href="">Կապը մեզ հետ</a>
+			    </div>
+			    <div class="footer_item col-4">
+			    	<span class="footer_subitem"><a href="">Բաժանորդագրվել էլ-փոստով</a>
+			    	<span class="footer_subitem"><a href="">Հայտարարություններ</a>
+			    </div>
+			    <div class="footer_item col-4">
+			    	<span class="footer_subitem"><a href="">Ականատես</a>
+			    </div>
+			</div>
+			<!-- Second part end -->
+				<p class="copyright">&#171;Ազատ Եվրոպա/Ազատություն&#187; ռադիոկայան &#169; 2020</p>
+			</div>
+	    </footer>
+	    <!-- footer end -->
+	</body>
+</html>
