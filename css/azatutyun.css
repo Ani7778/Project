@@ -441,7 +441,7 @@ img.logo {
     width: 20.33%;
   }
 }
-.bck_color {
+.bck_color a {
   background-color: #393e42;
   color: white;
 }

@@ -33,7 +33,7 @@
 			    	<a href="">Հայ</a> |
 			    	<a href="">Eng</a> |
 			    	<a href="">РУС</a> |
-		       		<a href=""><i class="fas fa-user socials"></i>Մուտք</a> |
+		       		<a href=""><i class="fas fa-user socials"></i>Մուտք | Գրանցվել</a>
 			    	<a href="">Գրանցվել</a> |
 			    	<a href=""><span class="ico ico-languages"></span>"Ազատության" բոլոր կայքերը</a> 
 			    </nav>
@@ -105,24 +105,10 @@
 					</div>
             	    <!-- Dropdown in header end -->
             	<!-- Button with JS begin -->    
-				<a href="javascript:void(0);" class="icon" onclick="showHideNavbaroptions()">
+				<a href="javascript:void(0);" class="icon">
 				    <i class="fa fa-bars"></i>
 				</a>
             	</div>
-            	<script>
-					function showHideNavbaroptions() {
-					    var navbar_options = document.getElementById("myNavbar");
-					    var hidden = navbar_options.classList.contains("hidden_block");
-
-					    if (hidden) {
-					    	console.log('Show Navbar');
-					    	navbar_options.className = "navbar_items_hover responsive";
-					    } else {
-					        console.log("Hide Navbar");
-					    	navbar_options.className = "navbar_items_hover hidden_block";
-					    }
-					}
-				</script>
 				<!-- Button with JS end -->    
             </div>
             <!-- navbar links end -->
@@ -255,6 +241,8 @@
 			</div>
 	    </footer>
 	    <!-- footer end -->
+
+	    <script src="../js/azatutyun.js"></script>
 	</body>
 </html>
 

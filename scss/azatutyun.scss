@@ -483,11 +483,11 @@ img.logo {
 	}
 }
 
-.bck_color {
+.bck_color a {
 	background-color: $dropColor;
 	color: white;
 
-    a:hover {
+    &:hover {
 	background-color: #404040;
     }
 }
