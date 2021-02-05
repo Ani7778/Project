@@ -15,9 +15,3 @@ function showHideNavbaroptions() {
         navbar_options.className = "navbar_items_hover hidden_block";
     }
 }
-
-
-
-
-
-
